@@ -22,7 +22,7 @@ pipeline{
 
             }
         }
-
+        // Stage3 : Publiching to Nexus 
         stage ('Publish to Nexus'){
             steps {
                 
@@ -32,7 +32,7 @@ pipeline{
         }
 
 
-        // Stage3 : Publish the source code to Sonarqube
+        // Stage4 : Publish the source code to Sonarqube
         stage ('Sonarqube Analysis'){
             steps {
                 echo ' Source code published to Sonarqube for SCA......'

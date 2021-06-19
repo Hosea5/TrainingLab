@@ -4,7 +4,7 @@
 
   <groupId>com.Hoseadevopslab</groupId>
   <artifactId>Hoseadevopslab</artifactId>
-  <version>0.0.1</version>
+  <version>0.0.4</version>
   <packaging>war</packaging>
   <name>Hoseadevopslab</name>
   <url>https://maven.apache.org/</url>
